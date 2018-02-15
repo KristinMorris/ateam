@@ -1,4 +1,3 @@
-
 # !!!!!!!!!!!!!!!!!!!!!Space!!!!!!!!!!!!!!!!!!!!!
 # !!!!!!!!!!!!!!!!!!!!!Space!!!!!!!!!!!!!!!!!!!!!
 # !!!!!!!!!!!!!!!!!!!!!Space!!!!!!!!!!!!!!!!!!!!!
@@ -23,8 +22,10 @@ space3
 
 
 print "Please enter your name" +" "
-answer = gets.chomp
+name = gets.chomp
 
 print "Please enter your email address" + " "
-answer = gets.chomp
+email = gets.chomp
 
+
+print "Your name is #{name} and and your email is #{email}"
