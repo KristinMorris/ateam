@@ -1,4 +1,3 @@
-
 # !!!!!!!!!!!!!!!!!!!!!Space!!!!!!!!!!!!!!!!!!!!!
 # !!!!!!!!!!!!!!!!!!!!!Space!!!!!!!!!!!!!!!!!!!!!
 # !!!!!!!!!!!!!!!!!!!!!Space!!!!!!!!!!!!!!!!!!!!!
@@ -45,9 +44,20 @@ end
 # !!!!!!!!!!!!!!!!!!!!!Beginning of code!!!!!!!!!!!!!!!!!!!!!
 # !!!!!!!!!!!!!!!!!!!!!Beginning of code!!!!!!!!!!!!!!!!!!!!!
 
+<<<<<<< HEAD:Project_Ateam.rb
 
 
 contacts = add_another_loop
 contacts.each do |value|
   puts "The name is #{value}"
 end
+=======
+print "Please enter your name" +" "
+name = gets.chomp
+
+print "Please enter your email address" + " "
+email = gets.chomp
+
+
+print "Your name is #{name} and and your email is #{email}"
+>>>>>>> b2f48c3e8ef30cd7c9c247370ed3ddcdc26a13f2:project_ateam.rb
