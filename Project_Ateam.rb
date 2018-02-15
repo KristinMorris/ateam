@@ -1,3 +1,4 @@
+
 # !!!!!!!!!!!!!!!!!!!!!Space!!!!!!!!!!!!!!!!!!!!!
 # !!!!!!!!!!!!!!!!!!!!!Space!!!!!!!!!!!!!!!!!!!!!
 # !!!!!!!!!!!!!!!!!!!!!Space!!!!!!!!!!!!!!!!!!!!!
@@ -43,3 +44,11 @@ add_another_loop
 # !!!!!!!!!!!!!!!!!!!!!Beginning of code!!!!!!!!!!!!!!!!!!!!!
 # !!!!!!!!!!!!!!!!!!!!!Beginning of code!!!!!!!!!!!!!!!!!!!!!
 space3
+
+
+print "Please enter your name" +" "
+answer = gets.chomp
+
+print "Please enter your email address" + " "
+answer = gets.chomp
+
