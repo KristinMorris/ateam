@@ -18,37 +18,36 @@ end
 def add_another_loop
   sentence = []
   loop do
-    puts "Add an E-mail"
+    puts "Add an a name"
     puts "y: Yes"
     puts "e: Exit"
     puts "Enter your choice: "
     answer = gets.chomp.downcase
     case answer
     when 'y'
-      puts "Add your Text, one word at a time"
+      puts "Add a name"
       string = gets.chomp.downcase
       sentence.push(string)
     when 'e'
-      sentence.each do |value|
-        puts "The email is #{value}"
-      end
+      # sentence.each do |value|
+      #   puts "The email is #{value}"
+      # end
+      return sentence
       break
     end
   end
 end
 
-add_another_loop
+
 
 # ruby Project_Ateam.rb
 # !!!!!!!!!!!!!!!!!!!!!Beginning of code!!!!!!!!!!!!!!!!!!!!!
 # !!!!!!!!!!!!!!!!!!!!!Beginning of code!!!!!!!!!!!!!!!!!!!!!
 # !!!!!!!!!!!!!!!!!!!!!Beginning of code!!!!!!!!!!!!!!!!!!!!!
-space3
 
 
-print "Please enter your name" +" "
-answer = gets.chomp
 
-print "Please enter your email address" + " "
-answer = gets.chomp
-
+contacts = add_another_loop
+contacts.each do |value|
+  puts "The name is #{value}"
+end
